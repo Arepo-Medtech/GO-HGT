@@ -19,6 +19,6 @@ This repository is self-contained. Two documents hold everything this track need
 - needs `process_cloud_private` in the licence matrix for any source in a view sent to a rented GPU.
 
 ## Pinning a release
-Copy `t0.lock.example` to `t0.lock` once the first T0 release exists, and fill in its id and fingerprint (T0 §9).
+`t0.lock` pins Release 2, `GO-20261103-4e9f3709` (3 Nov 2026), the first full T0 release: every gate passed (docs/t0.md in Graph-Ontology). Upgrade by bumping `t0.lock` in a pull request that carries the release diff and this track's regression results (T0 §9).
 
 Status: plan only. Nothing here has been built or run.
