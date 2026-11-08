@@ -1,5 +1,5 @@
-# Pin of the Graph-Ontology T0 release this track reads (T0.md §9). Release 2, the first full T0 release: every gate passed.
-release_id: GO-20261103-4e9f3709
-release_sha256: "4e9f3709dd3a240d5f016ddaf8ee2f761aa92fb01bcdefdcd142f82441572244"
+# Pin of the Graph-Ontology T0 release this track reads (T0.md §9). Release 3: MeSH loaded as a vocabulary; every refusing gate passed.
+release_id: GO-20261108-0670a01e
+release_sha256: "0670a01ee967f973e71c6aafb7e99ffc52de790b0f8fd8dfec348da426157708"
 releases_dir: ~/go-releases        # overridable with GO_RELEASES
-# producer: Graph-Ontology 2566570 (graph), docs and CI at 0aafcce; pinned 3 Nov 2026
+# producer: Graph-Ontology 098a428 (graph; merged to main as ebcc24a, PR #85); pinned 8 Nov 2026

@@ -19,6 +19,6 @@ This repository is self-contained. Two documents hold everything this track need
 - needs `process_cloud_private` in the licence matrix for any source in a view sent to a rented GPU.
 
 ## Pinning a release
-`t0.lock` pins Release 2, `GO-20261103-4e9f3709` (3 Nov 2026), the first full T0 release: every gate passed (docs/t0.md in Graph-Ontology). Upgrade by bumping `t0.lock` in a pull request that carries the release diff and this track's regression results (T0 §9).
+`t0.lock` pins Release 3, `GO-20261108-0670a01e` (8 Nov 2026), fingerprint `0670a01ee967f973e71c6aafb7e99ffc52de790b0f8fd8dfec348da426157708`: MeSH 2026 loaded as a vocabulary (every descriptor a node, the tree and pharmacological actions as native edges, entry terms in the synonym view); every refusing gate passed, and the reported per-track licence gate L-2 still lists 28 unreviewed rows (RELEASE.md in the release directory). Previous pin: Release 2, `GO-20261103-4e9f3709` (3 Nov 2026). Upgrade by bumping `t0.lock` in a pull request that carries the release diff and this track's regression results (T0 §9).
 
 Status: plan only. Nothing here has been built or run.
