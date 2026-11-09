@@ -1,5 +1,6 @@
 # Pin of the Graph-Ontology T0 release this track reads (T0.md §9). Release 3: MeSH loaded as a vocabulary; every refusing gate passed.
-release_id: GO-20261108-0670a01e
-release_sha256: "0670a01ee967f973e71c6aafb7e99ffc52de790b0f8fd8dfec348da426157708"
+release_id: GO-20261109-cc05fa5c
+release_sha256: "cc05fa5c0fbe1d794c187c0c2e1e1a88843f187346f29ee45589bc8f916adc5d"
 releases_dir: ~/go-releases        # overridable with GO_RELEASES
 # producer: Graph-Ontology 098a428 (graph; merged to main as ebcc24a, PR #85); pinned 8 Nov 2026
+# Release 4 pinned 9 Nov 2026 (Graph-Ontology e3e3fd1, PR #89): Release 3 with the seven malformed DrugCentral SCTIDs corrected.
