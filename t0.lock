@@ -1,6 +1,9 @@
 # Pin of the Graph-Ontology T0 release this track reads (T0.md §9). Release 3: MeSH loaded as a vocabulary; every refusing gate passed.
-release_id: GO-20261109-cc05fa5c
-release_sha256: "cc05fa5c0fbe1d794c187c0c2e1e1a88843f187346f29ee45589bc8f916adc5d"
+release_id: GO-20261113-b73a8a33
+release_sha256: "b73a8a336c420a49c4adc3d9b45c2ba00cb13361c175726775010326d1408233"
 releases_dir: ~/go-releases        # overridable with GO_RELEASES
 # producer: Graph-Ontology 098a428 (graph; merged to main as ebcc24a, PR #85); pinned 8 Nov 2026
 # Release 4 pinned 9 Nov 2026 (Graph-Ontology e3e3fd1, PR #89): Release 3 with the seven malformed DrugCentral SCTIDs corrected.
+# Release 6 pinned 14 Nov 2026 (Graph-Ontology 8cea274, branch release-6, PR #102; Release 5 GO-20261113-93e9f41a was not pinned here): Release 4 plus
+# recorded kinds (kind policy version 2), United States names, the UMLS fold-in, 4,418 late UMLS identity pairs, and two tightened rules (OMIM gene
+# entries; RxNorm brand names take no identity edge). 1,892,751 nodes, 10,414,947 edges. Releases live on the T9 drive (~/go-releases is a link to it).
