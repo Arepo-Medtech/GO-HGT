@@ -1,6 +1,6 @@
 # Pin of the Graph-Ontology T0 release this track reads (T0.md §9). Release 3: MeSH loaded as a vocabulary; every refusing gate passed.
-release_id: GO-20261119-9c9bddf3
-release_sha256: "9c9bddf31d6882cb76e5ee7ede7ac9e8b6b3f4b47058f8adec869c4991897d78"
+release_id: GO-20261120-092e71ea
+release_sha256: "092e71ea67d0f5e6f595ab51006b8fee3d7f33824b067bc7bb1c6b75ab84bde4"
 releases_dir: ~/go-releases        # overridable with GO_RELEASES
 # producer: Graph-Ontology 098a428 (graph; merged to main as ebcc24a, PR #85); pinned 8 Nov 2026
 # Release 4 pinned 9 Nov 2026 (Graph-Ontology e3e3fd1, PR #89): Release 3 with the seven malformed DrugCentral SCTIDs corrected.
@@ -11,3 +11,8 @@ releases_dir: ~/go-releases        # overridable with GO_RELEASES
 # kind policy version 3 (the kinds person state and service), HPO lay names as typed synonyms, and the owner's hand checks of 600 pairs, after
 # which equivalence groups follow checked links only (DrugCentral to SNOMED CT excepted, by ruling). 1,892,755 nodes, 10,416,113 edges.
 # SNOMED CT-AU 20260831, as before. From 18 Nov 2026 releases live on the Mac (~/go-releases is a folder there); T9 holds a verified copy.
+# Release 8 pinned 21 Nov 2026 (Graph-Ontology e95a33f, PRs #113 to #118): the nodes and edges of Release 7 (1,892,755 and 10,416,113); what changed is
+# which links form an equivalence group. No ungraded link forms one, DrugCentral to SNOMED CT is split into a checked same-substance route
+# (5,569 links), an Orphanet exact link to OMIM forms none where the entry is the whole disease and the OMIM entry a subtype, and 71 single
+# links the owner read as not the same are rejected. Groups 177,687, of which 1,224 hold a conflict (Release 7: 176,368 and 1,322).
+# SNOMED CT-AU 20260831, as before.
